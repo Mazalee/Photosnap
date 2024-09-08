@@ -1,0 +1,74 @@
+.image-info {
+  padding: 72px 33px;
+  margin-top: -8px;
+  height: 419px;
+  /* width: 90vw; */
+}
+.image-info h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  font-weight: bold;
+  width: 318px;
+}
+.image-info p {
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  width: 318px;
+}
+.image-btn {
+  margin-top: 23px;
+  width: 168px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  font-size: 12px;
+}
+.image-containerII {
+  margin-top: -10px;
+}
+.images {
+  background-color: rgba(0, 0, 0, 1);
+}
+.image-infoII {
+  position: absolute;
+  margin-top: -140px;
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+.image-infoII h1 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+}
+.image-infoII p {
+  margin-top: -5px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.image-direct {
+  margin-top: 23px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+.underlineI {
+  background-color: rgba(151, 151, 151, 0.9);
+  height: 2px;
+  margin-top: 10px;
+}

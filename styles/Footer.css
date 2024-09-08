@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.footer {
+  margin-top: 150px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "DM Sans", system-ui;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+.footer-logo {
+  margin-top: 56px;
+}
+.footer-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 32px;
+  gap: 14px;
+}
+.footer-links {
+  display: block;
+  margin-top: 49px;
+}
+.footer-links ul {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.footer-links ul li .links {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+}
+.footer-direct {
+  margin-top: 119px;
+  width: 172px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.footer-direct h2 {
+  font-size: 12px;
+  letter-spacing: 1.8px;
+}
+.footer p {
+  margin-top: 34px;
+  margin-bottom: 56px;
+  text-transform: capitalize;
+}
