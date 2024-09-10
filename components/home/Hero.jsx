@@ -12,11 +12,12 @@ const Hero = () => {
             <Image
               src={src}
               alt={alt}
-              width={375}
-              height={293}
-              style={{ width: "100vw", height: "auto" }}
+              layout="responsive"
+              width={100}
+              height={78}
               object-fit="cover"
-              className="new-width"
+              className="responsive-image"
+              priority
             />
             <div
               className="image-info"
@@ -41,11 +42,12 @@ const Hero = () => {
           <Image
             src={src}
             alt={alt}
-            width={375}
-            height={375}
-            style={{ width: "100vw", height: "auto" }}
+            width={100}
+            height={78}
+            layout="responsive"
             object-fit="cover"
-            className="new-width"
+            className="responsive-inage"
+            priority
           />
           <div className="image-infoII" style={{ color: "#ffffff" }}>
             <h1>{header}</h1>

@@ -3,7 +3,7 @@
 .stories-header-info {
   margin-top: -9px;
   display: grid;
-  place-items: item;
+  /* place-items: item; */
   padding-left: 29px;
   padding-right: 29px;
   font-family: "DM Sans", system-ui;

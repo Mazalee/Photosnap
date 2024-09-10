@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.features-header-info {
+  margin-top: -9px;
+  display: grid;
+  padding-left: 29px;
+  padding-right: 29px;
+  font-family: "DM Sans", system-ui;
+  width: 100%;
+}
+.features-header-info h1 {
+  margin-top: 72px;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.features-header-info p {
+  margin-top: 16px;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  margin-bottom: 72px;
+}
+.features-data {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-inline: auto;
+  font-family: "DM Sans", system-ui;
+}
+.features-data-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-data-info h1 {
+  margin-top: 48px;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.features-data-info p {
+  margin-top: 16px;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+.features-bottom {
+  margin-top: 99px;
+  margin-bottom: -160px;
+  text-transform: uppercase;
+}
+.features-bottom-info {
+  position: absolute;
+  margin-top: -250px;
+  padding-left: 41px;
+  padding-right: 31px;
+}
+.features-bottom-info h1 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  line-height: 1.4;
+}
+.features-bottom-info h2 {
+  font-size: 12px;
+  margin-top: 24px;
+  letter-spacing: 2.3px;
+}
+.features-bottom-direct {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50vw;
+}
+.features-bottom-direct span {
+  margin-top: 2px;
+}
