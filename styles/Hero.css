@@ -2,7 +2,9 @@
   padding: 72px 33px;
   margin-top: -8px;
   height: 419px;
+  width: 100%;
 }
+
 .image-info h1 {
   text-transform: uppercase;
   font-size: 32px;
@@ -71,8 +73,20 @@
   height: 2px;
   margin-top: 10px;
 }
-.image-gallery {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
+
+/*TABLET SCREEN*/
+@media only screen and (min-width: 768px) {
+  .image-container {
+    display: flex;
+  }
+  .responsive-image {
+    width: 50%;
+    order: 2;
+    margin: 20px;
+  }
+  .image-info {
+    width: 65%;
+    order: 1;
+    /* height: 650px; */
+  }
 }

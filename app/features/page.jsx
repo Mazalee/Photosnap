@@ -17,10 +17,12 @@ export const FeaturesPage = () => {
               <Image
                 src={src}
                 alt={alt}
-                width={375}
-                height={294}
-                style={{ width: "100vw", height: "auto" }}
+                layout="responsive"
+                width={100}
+                height={78}
                 object-fit="cover"
+                className="responsive-image"
+                priority
               />
               <div
                 className="features-header-info"
@@ -45,10 +47,12 @@ export const FeaturesPage = () => {
               <Image
                 src={src}
                 alt={alt}
-                width={375}
-                height={288}
-                style={{ width: "100vw", height: "auto" }}
+                layout="responsive"
+                width={100}
+                height={78}
                 object-fit="cover"
+                className="responsive-image"
+                priority
               />
 
               <div

@@ -1,8 +1,10 @@
 export const imageData = [
   {
     id: 1,
-    src: "/home/mobile/create-and-share.jpg",
-    alt: "beautiful-stories",
+    mobileSrc: "/home/mobile/create-and-share.jpg",
+    tabletSrc: "/home/tablet/create-and-share.jpg",
+    desktopSrc: "/home/desktop/create-and-share.jpg",
+    alt: "create and share",
     header: "create and share your photo stories.",
     paragraph:
       "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
@@ -19,7 +21,9 @@ export const imageData = [
   },
   {
     id: 2,
-    src: "/home/mobile/beautiful-stories.jpg",
+    mobileSrc: "/home/mobile/beautiful-stories.jpg",
+    tabletSrc: "/home/tablet/beautiful-stories.jpg",
+    desktopSrc: "/home/desktop/beautiful-stories.jpg",
     alt: "beautiful-stories",
     header: "beautiful stories every time",
     paragraph:
@@ -37,7 +41,9 @@ export const imageData = [
   },
   {
     id: 3,
-    src: "/home/mobile/designed-for-everyone.jpg",
+    mobileSrc: "/home/mobile/designed-for-everyone.jpg",
+    tabletSrc: "/home/tablet/designed-for-everyone.jpg",
+    desktopSrc: "/home/desktop/designed-for-everyone.jpg",
     alt: "beautiful-stories",
     header: "designed for everyone",
     paragraph:
