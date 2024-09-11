@@ -12,11 +12,12 @@ const Hero = () => {
             <Image
               src={src}
               alt={alt}
-              width={375}
-              height={293}
-              style={{ width: "100vw", height: "auto" }}
-              object-fit="cover"
-              className="new-width"
+              layout="responsive"
+              width={100}
+              height={78}
+              objectFit="cover"
+              className="responsive-image"
+              priority
             />
             <div
               className="image-info"
@@ -37,15 +38,16 @@ const Hero = () => {
       )}
 
       {dataImages.map(({ id, src, alt, icon, header, button, paragraph }) => (
-        <div key={id} className="image-containerII">
+        <div key={id} className="image-container">
           <Image
             src={src}
             alt={alt}
-            width={375}
-            height={375}
-            style={{ width: "100vw", height: "auto" }}
-            object-fit="cover"
-            className="new-width"
+            layout="responsive"
+            width={100}
+            height={78}
+            objectFit="cover"
+            className="responsive-image"
+            priority
           />
           <div className="image-infoII" style={{ color: "#ffffff" }}>
             <h1>{header}</h1>
