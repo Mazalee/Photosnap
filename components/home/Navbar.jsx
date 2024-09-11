@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="wrapper">
         <NavLeft />
         <div className="nav-right">
-          <button className=" btn btn-large nav-btn">get an invite</button>
+          <button className=" btn btn-large btn-tab">get an invite</button>
         </div>
       </nav>
     </div>

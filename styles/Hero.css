@@ -2,8 +2,9 @@
   padding: 72px 33px;
   margin-top: -8px;
   height: 419px;
-  /* width: 90vw; */
+  width: 100%;
 }
+
 .image-info h1 {
   text-transform: uppercase;
   font-size: 32px;

@@ -1,9 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { dataImages, imageData } from "../imageData";
 import "../../styles/Hero.css";
+import useWindowSize from "../hooks/useWindowSize";
 
 const Hero = () => {
+  const size = useWindowSize();
+
   return (
     <div className="image-gallery">
       {imageData.map(
@@ -12,12 +17,11 @@ const Hero = () => {
             <Image
               src={src}
               alt={alt}
-              layout="responsive"
-              width={100}
-              height={78}
-              objectFit="cover"
-              className="responsive-image"
-              priority
+              width={375}
+              height={293}
+              style={{ width: "100vw", height: "auto" }}
+              object-fit="cover"
+              className="new-width"
             />
             <div
               className="image-info"
@@ -42,12 +46,11 @@ const Hero = () => {
           <Image
             src={src}
             alt={alt}
-            layout="responsive"
-            width={100}
-            height={78}
-            objectFit="cover"
-            className="responsive-image"
-            priority
+            width={375}
+            height={375}
+            style={{ width: "100vw", height: "auto" }}
+            object-fit="cover"
+            className="new-width"
           />
           <div className="image-infoII" style={{ color: "#ffffff" }}>
             <h1>{header}</h1>

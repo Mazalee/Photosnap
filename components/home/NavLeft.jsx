@@ -49,7 +49,7 @@ const NavLeft = () => {
                 className="mobile-links"
                 onClick={() => setIsSidebarOpen(false)}
                 ref={sidebarRef}
-                key={link.label}
+                key={link.href}
                 href={link.href}
               >
                 {link.label}
