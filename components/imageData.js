@@ -3,7 +3,7 @@ export const imageData = [
     id: 1,
     mobileSrc: "/home/mobile/create-and-share.jpg",
     tabletSrc: "/home/tablet/create-and-share.jpg",
-    desktopSrc: "/home/desktop/create-and-share.jpg",
+    desktopSrc: "/home/desktop/designed-for-everyone.jpg",
     alt: "create and share",
     header: "create and share your photo stories.",
     paragraph:
@@ -56,16 +56,17 @@ export const imageData = [
         </g>
       </svg>
     ),
-    bgcolor: "#ffffff",
-    color: "#000000",
   },
 ];
 
 export const dataImages = [
   {
     id: 1,
-    src: "/stories/mobile/mountains.jpg",
-    alt: "mountains",
+    mobileSrc: "/stories/mobile/mountains.jpg",
+
+    tabletSrc: "/stories/tablet/mountains.jpg",
+    desktopSrc: "/stories/desktop/mountains.jpg",
+
     header: "the mountains",
     paragraph: "by John Appleseed",
     icon: (
@@ -79,7 +80,9 @@ export const dataImages = [
   },
   {
     id: 2,
-    src: "/stories/mobile/cityscapes.jpg",
+    mobileSrc: "/stories/mobile/cityscapes.jpg",
+    tabletSrc: "/stories/tablet/cityscapes.jpg",
+    desktopSrc: "/stories/desktop/cityscapes.jpg",
     alt: "city scapes",
     header: "sunset cityscapes",
     paragraph: "by Benjamin Cruz",
@@ -94,7 +97,10 @@ export const dataImages = [
   },
   {
     id: 3,
-    src: "/stories/mobile/18-days-voyage.jpg",
+    mobileSrc: "/stories/mobile/18-days-voyage.jpg",
+    tabletSrc: "/stories/tablet/18-days-voyage.jpg",
+    desktopSrc: "/stories/desktop/18-days-voyage.jpg",
+    // src: "/stories/mobile/18-days-voyage.jpg",
     alt: "voyage",
     header: "18 days voyage",
     paragraph: "by Alexei Borodin",
@@ -109,7 +115,10 @@ export const dataImages = [
   },
   {
     id: 4,
-    src: "/stories/mobile/architecturals.jpg",
+    mobileSrc: "/stories/mobile/architecturals.jpg",
+    tabletSrc: "/stories/tablet/architecturals.jpg",
+    desktopSrc: "/stories/desktop/architecturals.jpg",
+    // src: "/stories/mobile/architecturals.jpg",
     alt: "architecturals",
     header: "architecturals",
     paragraph: "by Samantha Brooke",
@@ -236,7 +245,11 @@ export const socialIcons = [
 export const storiesImage = [
   {
     id: 1,
-    src: "/stories/mobile/moon-of-appalacia.jpg",
+    mobileSrc: "/stories/mobile/moon-of-appalacia.jpg",
+
+    tabletSrc: "/stories/tablet/moon-of-appalacia.jpg",
+    desktopSrc: "/stories/desktop/moon-of-appalacia.jpg",
+    // src: "/stories/mobile/moon-of-appalacia.jpg",
     alt: "appalacia",
     detail: "last month's featured story",
     header: "hazy full moon of appalachia",
@@ -257,11 +270,77 @@ export const storiesImage = [
 ];
 
 export const storiesData = [
+  // {
+  //   id: 1,
+  //   src: "/stories/mobile/mountains.jpg",
+  //   alt: "mountains",
+  //   date: "April 16th 2020",
+  //   header: "the mountains",
+  //   paragraph: "by John Appleseed",
+  //   icon: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+  //       <g fill="none" fill-rule="evenodd" stroke="#fff">
+  //         <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+  //       </g>
+  //     </svg>
+  //   ),
+  //   button: "read story",
+  // },
+  // {
+  //   id: 2,
+  //   src: "/stories/mobile/cityscapes.jpg",
+  //   alt: "city scapes",
+  //   date: "April 14th 2020",
+  //   header: "sunset cityscapes",
+  //   paragraph: "by Benjamin Cruz",
+  //   icon: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+  //       <g fill="none" fill-rule="evenodd" stroke="#fff">
+  //         <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+  //       </g>
+  //     </svg>
+  //   ),
+  //   button: "read story",
+  // },
+  // {
+  //   id: 3,
+  //   src: "/stories/mobile/18-days-voyage.jpg",
+  //   alt: "voyage",
+  //   date: "April 11th 2020",
+  //   header: "18 days voyage",
+  //   paragraph: "by Alexei Borodin",
+  //   icon: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+  //       <g fill="none" fill-rule="evenodd" stroke="#fff">
+  //         <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+  //       </g>
+  //     </svg>
+  //   ),
+  //   button: "read story",
+  // },
+  // {
+  //   id: 4,
+  //   src: "/stories/mobile/architecturals.jpg",
+  //   alt: "architecturals",
+  //   date: "April 9th 2020",
+  //   header: "architecturals",
+  //   paragraph: "by Samantha Brooke",
+  //   icon: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+  //       <g fill="none" fill-rule="evenodd" stroke="#fff">
+  //         <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+  //       </g>
+  //     </svg>
+  //   ),
+  //   button: "read story",
+  // },
   {
     id: 1,
-    src: "/stories/mobile/mountains.jpg",
-    alt: "mountains",
-    date: "April 16th 2020",
+    mobileSrc: "/stories/mobile/mountains.jpg",
+
+    tabletSrc: "/stories/tablet/mountains.jpg",
+    desktopSrc: "/stories/desktop/mountains.jpg",
+
     header: "the mountains",
     paragraph: "by John Appleseed",
     icon: (
@@ -275,9 +354,10 @@ export const storiesData = [
   },
   {
     id: 2,
-    src: "/stories/mobile/cityscapes.jpg",
+    mobileSrc: "/stories/mobile/cityscapes.jpg",
+    tabletSrc: "/stories/tablet/cityscapes.jpg",
+    desktopSrc: "/stories/desktop/cityscapes.jpg",
     alt: "city scapes",
-    date: "April 14th 2020",
     header: "sunset cityscapes",
     paragraph: "by Benjamin Cruz",
     icon: (
@@ -291,9 +371,11 @@ export const storiesData = [
   },
   {
     id: 3,
-    src: "/stories/mobile/18-days-voyage.jpg",
+    mobileSrc: "/stories/mobile/18-days-voyage.jpg",
+    tabletSrc: "/stories/tablet/18-days-voyage.jpg",
+    desktopSrc: "/stories/desktop/18-days-voyage.jpg",
+    // src: "/stories/mobile/18-days-voyage.jpg",
     alt: "voyage",
-    date: "April 11th 2020",
     header: "18 days voyage",
     paragraph: "by Alexei Borodin",
     icon: (
@@ -307,9 +389,11 @@ export const storiesData = [
   },
   {
     id: 4,
-    src: "/stories/mobile/architecturals.jpg",
+    mobileSrc: "/stories/mobile/architecturals.jpg",
+    tabletSrc: "/stories/tablet/architecturals.jpg",
+    desktopSrc: "/stories/desktop/architecturals.jpg",
+    // src: "/stories/mobile/architecturals.jpg",
     alt: "architecturals",
-    date: "April 9th 2020",
     header: "architecturals",
     paragraph: "by Samantha Brooke",
     icon: (
@@ -323,7 +407,10 @@ export const storiesData = [
   },
   {
     id: 5,
-    src: "/stories/mobile/world-tour.jpg",
+    mobileSrc: "/stories/mobile/world-tour.jpg",
+    tabletSrc: "/stories/tablet/world-tour.jpg",
+    desktopSrc: "/stories/desktop/world-tour.jpg",
+    // src: "/stories/mobile/world-tour.jpg",
     alt: "world tour",
     date: "April 7th 2020",
     header: "world tour 2019",
@@ -339,7 +426,10 @@ export const storiesData = [
   },
   {
     id: 6,
-    src: "/stories/mobile/unforeseen-corners.jpg",
+    // src: "/stories/mobile/unforeseen-corners.jpg",
+    mobileSrc: "/stories/mobile/unforeseen-corners.jpg",
+    tabletSrc: "/stories/tablet/unforeseen-corners.jpg",
+    desktopSrc: "/stories/desktop/unforeseen-corners.jpg",
     alt: "unforeseen",
     date: "April 3rd 2020",
     header: "unforeseen corners",
@@ -355,7 +445,10 @@ export const storiesData = [
   },
   {
     id: 7,
-    src: "/stories/mobile/king-on-africa.jpg",
+    mobileSrc: "/stories/mobile/king-on-africa.jpg",
+    tabletSrc: "/stories/tablet/king-on-africa.jpg",
+    desktopSrc: "/stories/desktop/king-on-africa.jpg",
+    // src: "/stories/mobile/king-on-africa.jpg",
     alt: "king on africa",
     date: "March 29th 2020",
     header: "king on africa: part II",
@@ -371,7 +464,10 @@ export const storiesData = [
   },
   {
     id: 8,
-    src: "/stories/mobile/trip-to-nowhere.jpg",
+    mobileSrc: "/stories/mobile/trip-to-nowhere.jpg",
+    tabletSrc: "/stories/tablet/trip-to-nowhere.jpg",
+    desktopSrc: "/stories/desktop/trip-to-nowhere.jpg",
+    // src: "/stories/mobile/trip-to-nowhere.jpg",
     alt: "trip to nowhere",
     date: "March 21st 2020",
     header: "the trip to nowhere",
@@ -387,7 +483,10 @@ export const storiesData = [
   },
   {
     id: 9,
-    src: "/stories/mobile/rage-of-the-sea.jpg",
+    // src: "/stories/mobile/rage-of-the-sea.jpg",
+    mobileSrc: "/stories/mobile/rage-of-the-sea.jpg",
+    tabletSrc: "/stories/tablet/rage-of-the-sea.jpg",
+    desktopSrc: "/stories/desktop/rage-of-the-sea.jpg",
     alt: "rage of the sea",
     date: "March 19th 2020",
     header: "rage of the sea",
@@ -403,7 +502,10 @@ export const storiesData = [
   },
   {
     id: 10,
-    src: "/stories/mobile/running-free.jpg",
+    mobileSrc: "/stories/mobile/running-free.jpg",
+    tabletSrc: "/stories/tablet/running-free.jpg",
+    desktopSrc: "/stories/desktop/running-free.jpg",
+    // src: "/stories/mobile/running-free.jpg",
     alt: "running free",
     date: "March 16th 2020",
     header: "running free",
@@ -419,7 +521,10 @@ export const storiesData = [
   },
   {
     id: 11,
-    src: "/stories/mobile/behind-the-waves.jpg",
+    // src: "/stories/mobile/behind-the-waves.jpg",
+    mobileSrc: "/stories/mobile/behind-the-waves.jpg",
+    tabletSrc: "/stories/tablet/behind-the-waves.jpg",
+    desktopSrc: "/stories/desktop/behind-the-waves.jpg",
     alt: "behind the waves",
     date: "March 11th 2020",
     header: "behind the waves",
@@ -435,6 +540,9 @@ export const storiesData = [
   },
   {
     id: 12,
+    mobileSrc: "/stories/mobile/calm-waters.jpg",
+    tabletSrc: "/stories/tablet/calm-waters.jpg",
+    desktopSrc: "/stories/desktop/calm-waters.jpg",
     src: "/stories/mobile/calm-waters.jpg",
     alt: "calm waters",
     date: "March 9th 2020",
@@ -451,7 +559,10 @@ export const storiesData = [
   },
   {
     id: 13,
-    src: "/stories/mobile/milky-way.jpg",
+    mobileSrc: "/stories/mobile/milky-way.jpg",
+    tabletSrc: "/stories/tablet/milky-way.jpg",
+    desktopSrc: "/stories/desktop/milky-way.jpg",
+    // src: "/stories/mobile/milky-way.jpg",
     alt: "milky way",
     date: "March 5th 2020",
     header: "the milky way",
@@ -467,7 +578,10 @@ export const storiesData = [
   },
   {
     id: 14,
-    src: "/stories/mobile/dark-forest.jpg",
+    mobileSrc: "/stories/mobile/dark-forest.jpg",
+    tabletSrc: "/stories/tablet/dark-forest.jpg",
+    desktopSrc: "/stories/desktop/dark-forest.jpg",
+    // src: "/stories/mobile/dark-forest.jpg",
     alt: "dark forest",
     date: "March 4th 2020",
     header: "night at the dark forest",
@@ -483,7 +597,10 @@ export const storiesData = [
   },
   {
     id: 15,
-    src: "/stories/mobile/somwarpet.jpg",
+    mobileSrc: "/stories/mobile/somwarpet.jpg",
+    tabletSrc: "/stories/tablet/somwarpet.jpg",
+    desktopSrc: "/stories/desktop/somwarpet.jpg",
+    // src: "/stories/mobile/somwarpet.jpg",
     alt: "somwarpet",
     date: "March 1st 2020",
     header: "somwarpet's beauty",
@@ -499,7 +616,10 @@ export const storiesData = [
   },
   {
     id: 16,
-    src: "/stories/mobile/land-of-dreams.jpg",
+    // src: "/stories/mobile/land-of-dreams.jpg",
+    mobileSrc: "/stories/mobile/land-of-dreams.jpg",
+    tabletSrc: "/stories/tablet/land-of-dreams.jpg",
+    desktopSrc: "/stories/desktop/land-of-dreams.jpg",
     alt: "land of dreams",
     date: "February 25th 2020",
     header: "land of dreams",

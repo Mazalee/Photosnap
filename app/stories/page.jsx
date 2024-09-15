@@ -1,7 +1,9 @@
 import { storiesData, storiesImage } from "@/components/imageData";
 import Stories from "@/components/stories/Stories";
+import Story from "@/components/stories/story";
 import Image from "next/image";
 import "../../styles/Stories.css";
+import "../../styles/Hero.css";
 
 const StoriesPage = () => {
   return (
@@ -10,30 +12,31 @@ const StoriesPage = () => {
         {storiesImage.map(
           ({
             id,
-            src,
+            mobileSrc,
+            tabletSrc,
+            desktopSrc,
+            // src,
             alt,
             button,
             icon,
             header,
             author,
             bgcolor,
-            color,
+
             detail,
             paragraph,
           }) => (
             <div key={id} className="stories-header">
-              <Image
-                src={src}
-                alt={alt}
-                width={375}
-                height={317}
-                style={{ width: "100vw", height: "auto" }}
-                object-fit="cover"
-              />
-              <div
-                className="stories-header-info"
-                style={{ backgroundColor: bgcolor, color: color }}
-              >
+              <picture>
+                {/* larger screens */}
+                <source srcSet={desktopSrc} media="(min-width: 1024px)" />
+                {/* tablet screen */}
+                <source srcSet={tabletSrc} media="(min-width: 768px)" />
+                {/* for default and mobile */}
+                <img src={mobileSrc} alt={alt} className="hero-image" />
+              </picture>
+
+              <div className="stories-header-info">
                 <h3>{detail}</h3>
                 <h1>{header}</h1>
                 <h4>{author}</h4>
@@ -46,12 +49,7 @@ const StoriesPage = () => {
             </div>
           )
         )}
-
-        <div className="stories-layout">
-          {storiesData.map((data) => {
-            return <Stories key={data.id} {...data} />;
-          })}
-        </div>
+        <Story dataImages={storiesData} />
       </div>
     </main>
   );
